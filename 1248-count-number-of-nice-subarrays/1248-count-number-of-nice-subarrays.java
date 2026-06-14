@@ -4,6 +4,8 @@ class Solution {
     }
 
     private int numberOfSubSubArrays(int[] nums, int k){
+        if(k < 0)
+            return 0;
         int r = 0, l = 0, sum = 0, maxLen = 0;
         while(r < nums.length){
             sum += (nums[r] % 2);
