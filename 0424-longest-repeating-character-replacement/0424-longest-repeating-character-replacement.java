@@ -6,12 +6,13 @@ class Solution {
             hash[s.charAt(r) - 'A']++;
             maxFreq = Integer.max(maxFreq, hash[s.charAt(r) - 'A']);
             replacementsNeeded = r - l + 1 - maxFreq;
-            while(replacementsNeeded > k){
+            if(replacementsNeeded > k){
                 hash[s.charAt(l) - 'A']--;
                 l++;
                 replacementsNeeded = r - l + 1 - maxFreq;
             }
-            maxLen = Integer.max(maxLen, r - l + 1);
+            if(replacementsNeeded <= k)
+                 maxLen = Integer.max(maxLen, r - l + 1);
             r++;
         }
         return maxLen;
