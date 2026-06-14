@@ -5,13 +5,12 @@ class Solution {
         while( r < s.length()){
             hash[s.charAt(r) - 'A']++;
             maxFreq = Integer.max(maxFreq, hash[s.charAt(r) - 'A']);
-            replacementsNeeded = r - l + 1 - maxFreq;
-            if(replacementsNeeded > k){
+            //replacementsNeeded = r - l + 1 - maxFreq;
+            if((r - l + 1 - maxFreq) > k){
                 hash[s.charAt(l) - 'A']--;
                 l++;
-                replacementsNeeded = r - l + 1 - maxFreq;
             }
-            if(replacementsNeeded <= k)
+            if((r - l + 1 - maxFreq) <= k)
                  maxLen = Integer.max(maxLen, r - l + 1);
             r++;
         }
