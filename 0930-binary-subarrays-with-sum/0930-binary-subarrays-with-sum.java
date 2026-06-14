@@ -4,9 +4,10 @@ class Solution {
     }
 
     public int subArrayWithAtMostSum(int[] nums, int goal){
-        if(goal == -1)
+
+        if(goal < 0)
         return 0;
-        
+
         int r = 0, l = 0, sum = 0, maxLen = 0;
         while(r < nums.length){
             sum += nums[r];
