@@ -10,12 +10,11 @@ class Solution {
                     zCount--;
                 l++;
             }
-            if(zCount == 0)
-                maxLen = Integer.max(maxLen, r - l);
-            if(zCount == 1)
-            {
-                maxLen = Integer.max(maxLen, r - l);
-            }
+            //now window consists of only one or zero 0's
+            //if it doesn't contain any 0's one element(1) is to be deleted
+            //if it contains one 0, that 0 shall be deleted. So, 
+            //windowsize - 1 = (r - l + 1) - 1 =  r - l
+             maxLen = Integer.max(maxLen, r - l);
             r++;
         }
         return maxLen;
