@@ -9,14 +9,16 @@ class Solution {
             else{
                 tCount++;
             }
-            while((r - l + 1 - Integer.max(fCount, tCount)) > k){
+            //r - l + 1- Integer.max(fCount, tCount) will return the least 
+            if((r - l + 1 - Integer.max(fCount, tCount)) > k){
                 if(answerKey.charAt(l) == 'T')
                     tCount--;
                 else
                     fCount--;
                 l++;
             }
-            maxLen = Integer.max(maxLen, r - l + 1);
+            if((r - l + 1 - Integer.max(fCount, tCount)) <= k)
+              maxLen = Integer.max(maxLen, r - l + 1);
             r++;
         }
         return maxLen;
