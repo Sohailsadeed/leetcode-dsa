@@ -9,7 +9,7 @@ class Solution {
                 map.put(nums[l], map.get(nums[l]) - 1);
                 l++;
             }
-            maxLen = Integer.max(maxLen, r - l  + 1);
+                maxLen = Integer.max(maxLen, r - l  + 1);
             r++;
         }
         return maxLen;
