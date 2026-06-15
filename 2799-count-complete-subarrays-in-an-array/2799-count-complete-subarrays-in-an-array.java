@@ -3,7 +3,7 @@ class Solution {
         int r = 0, l = 0, count = 0;
         HashSet<Integer> set = new HashSet<>();
         HashMap<Integer, Integer> map = new HashMap<>();
-        int formed = 0;
+        int distinctCount = 0;
         for(int i = 0 ; i < nums.length ; i++)
             set.add(nums[i]);
 
@@ -12,16 +12,16 @@ class Solution {
             map.put(nums[r], map.getOrDefault(nums[r], 0) + 1);
 
             if(map.get(nums[r]) == 1){
-                formed++;
+                distinctCount++;
             } 
-            
-            while(formed == set.size())
+
+            while(distinctCount == set.size())
               { 
                   count += nums.length - r;
                   map.put(nums[l], map.get(nums[l]) - 1);
                   if(map.get(nums[l]) == 0)
                   {
-                    formed--;
+                    distinctCount--;
                     map.remove(nums[l]);
                   }
                   l++;
