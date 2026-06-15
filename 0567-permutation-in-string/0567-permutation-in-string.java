@@ -1,27 +1,31 @@
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
-        int r = 0, l = 0;
-        boolean valid = false;
-        HashMap<Character, Integer> required = new HashMap<>();
-        HashMap<Character, Integer> window = new HashMap<>();
-        for(int i = 0 ; i < s1.length() ; i ++){
-            required.put(s1.charAt(i), required.getOrDefault(s1.charAt(i), 0) + 1);
+        if(s1.length() > s2.length()) return false;
+        int n1 = s1.length(), n2 = s2.length();
+        int[] required = new int[26];
+        int[] window = new int[26];
+        for(int i = 0 ; i < n1 ; i++){
+           required[s1.charAt(i) - 'a']++;
+           window[s2.charAt(i) - 'a']++;
         }
 
-        while(r < s2.length()){
-            window.put(s2.charAt(r), window.getOrDefault(s2.charAt(r), 0) + 1);
-            
-            while((r - l + 1 )> s1.length())
-            {
-                window.put(s2.charAt(l), window.get(s2.charAt(l)) - 1);
-                if(window.get(s2.charAt(l)) == 0)
-                    window.remove(s2.charAt(l));
-                l++;
-            }
-            if(window.equals(required))
-                 valid = true;
-            r++;
+        if(matches(required, window))
+            return true;
+
+        while(n1 < n2){
+            window[s2.charAt(n1) - 'a']++;
+            window[s2.charAt(n1 - s1.length()) - 'a']--;
+            if(matches(window, required))
+                return true;
+            n1++;
         }
-        return valid;
+        return false;
+    }
+
+    private boolean matches(int[] required, int[] window) {
+        for (int i = 0; i < 26; i++)
+            if (required[i] != window[i])
+                return false;
+        return true;
     }
 }
