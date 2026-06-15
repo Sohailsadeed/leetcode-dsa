@@ -14,7 +14,7 @@ class Solution {
 
         while(n1 < n2){
             window[s2.charAt(n1) - 'a']++;
-            window[s2.charAt(n1 - s1.length()) - 'a']--;
+            window[s2.charAt(n1 - s1.length()) - 'a']--;//n1 gets increased upto n2 and n1 initially = s1.length() so it is used to traverse s1 from index 0 maintaining a constant window
             if(matches(window, required))
                 return true;
             n1++;
