@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1248-count-number-of-nice-subarrays) |
+| [2799-count-complete-subarrays-in-an-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## String
 |  |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2024-maximize-the-confusion-of-an-exam) |
+| [2799-count-complete-subarrays-in-an-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Array
 |  |
@@ -42,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [2799-count-complete-subarrays-in-an-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Prefix Sum
 |  |
