@@ -13,12 +13,11 @@ class Solution {
 
             if(map.get(nums[r]) == 1){
                 formed++;
-            }
-                
+            } 
+            
             while(formed == set.size())
               { 
-                  if(formed == set.size())
-                      count += nums.length - r;
+                  count += nums.length - r;
                   map.put(nums[l], map.get(nums[l]) - 1);
                   if(map.get(nums[l]) == 0)
                   {
