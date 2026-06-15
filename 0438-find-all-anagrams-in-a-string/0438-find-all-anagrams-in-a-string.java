@@ -2,21 +2,19 @@ class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         int r = 0, l = 0, requiredSize = 0, formed = 0;
         List<Integer> res = new ArrayList<>();
-        HashMap<Character, Integer> window = new HashMap<>();
-        HashMap<Character, Integer> required = new HashMap<>();
+        int[] required = new int[26];
+        int[] window = new int[26];
         for(int i = 0 ; i < p.length() ; i ++){
-            required.put(p.charAt(i), required.getOrDefault(p.charAt(i), 0) + 1);
+           required[p.charAt(i) - 'a']++;
         }
         while(r < s.length()){
-            window.put(s.charAt(r), window.getOrDefault(s.charAt(r), 0) + 1);
+            window[s.charAt(r) - 'a']++;
             while( (r - l + 1) > p.length()){
                 char ch = s.charAt(l);
-                window.put(ch, window.get(ch) - 1);
-                if(window.get(ch) == 0)
-                    window.remove(ch);
+                window[ch - 'a']--;
                 l++;
             }
-            if(((r - l + 1) == p.length()) && window.equals(required))
+            if(((r - l + 1) == p.length()) && Arrays.equals(window, required))
                 res.add(l);
             r++;
         }
