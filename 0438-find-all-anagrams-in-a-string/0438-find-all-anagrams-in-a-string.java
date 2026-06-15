@@ -1,6 +1,6 @@
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
-        int r = 0, l = 0, requiredSize = 0, formed = 0;
+        int r = 0, l = 0;
         List<Integer> res = new ArrayList<>();
         int[] required = new int[26];
         int[] window = new int[26];
