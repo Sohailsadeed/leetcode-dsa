@@ -5,7 +5,7 @@ class Solution {
             if(nums[r] == 0){
                 zCount++;
             }
-            while(zCount > 1){
+            if(zCount > 1){
                 if(nums[l] == 0)
                     zCount--;
                 l++;
