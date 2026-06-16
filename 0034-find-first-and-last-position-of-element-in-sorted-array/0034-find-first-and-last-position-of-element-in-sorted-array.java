@@ -1,37 +1,23 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
+        if (nums == null || nums.length == 0) 
+            return new int[]{-1, -1};
         int[] res = new int[2];
-        res[0] = startIndex(nums, target);
-        res[1] = endIndex(nums, target);
+        res[0] = findIndex(nums, target, true);
+        res[1] = findIndex(nums, target, false);
         return res;
     }
-    private int startIndex(int[] nums, int target){
+    private int findIndex(int[] nums, int target, boolean isStart){
         int low = 0, high = nums.length - 1, mid = 0;
         int res = -1;
         while(low <= high){
             mid = low + (high - low) / 2;
             if(nums[mid] == target){
                 res = mid;
-                high = mid - 1;
-            }
-            else if(nums[mid] < target){
-                low = mid + 1;
-            }
-            else{
-                high = mid - 1;
-            }
-        }
-        return res;
-    }
-
-    private int endIndex(int[] nums, int target){
-        int low = 0, high = nums.length - 1, mid = 0;
-        int res = -1;
-        while(low <= high){
-            mid = low + (high - low) / 2;
-            if(nums[mid] == target){
-                res = mid;
-                low = mid + 1;
+                if(isStart)
+                    high = mid - 1;
+                else
+                    low = mid + 1;
             }
             else if(nums[mid] < target){
                 low = mid + 1;
