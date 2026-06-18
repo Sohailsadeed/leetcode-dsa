@@ -9,10 +9,7 @@ class Solution {
             return nums.length - 1;
         while(low <= high){
             mid = low + (high - low) / 2;
-            if(mid == 0 && nums[mid] > nums[mid + 1])
-                return 0;
-            if(mid == nums.length - 1 && nums[nums.length - 1] > nums[nums.length - 2])
-                return nums.length - 1;
+
             if(nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1])
                 return mid;
 
