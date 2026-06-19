@@ -8,7 +8,7 @@ class Solution {
         }
         while (low <= high) {
             mid = low + (high - low) / 2;
-            int temp = check(mid, piles);
+            int temp = hoursTaken(mid, piles);
             if (temp <= h) {
                 res = Integer.min(mid, res);
                 high = mid - 1;
@@ -19,7 +19,7 @@ class Solution {
         return res;
     }
 
-    private int check(int mid, int[] piles) {
+    private int hoursTaken(int mid, int[] piles) {
         int totalHours = 0;
         double temp = 0.0;
         for (int i = 0; i < piles.length; i++) {
