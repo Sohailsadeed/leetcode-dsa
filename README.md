@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1552-magnetic-force-between-two-balls](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1552-magnetic-force-between-two-balls) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Prefix Sum
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1552-magnetic-force-between-two-balls](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1552-magnetic-force-between-two-balls) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2024-maximize-the-confusion-of-an-exam) |
 ## Dynamic Programming
 |  |
@@ -110,4 +112,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0239-sliding-window-maximum) |
+## Sorting
+|  |
+| ------- |
+| [1552-magnetic-force-between-two-balls](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1552-magnetic-force-between-two-balls) |
 <!---LeetCode Topics End-->
