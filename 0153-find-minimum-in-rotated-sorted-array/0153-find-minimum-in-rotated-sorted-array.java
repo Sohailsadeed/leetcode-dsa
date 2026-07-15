@@ -4,6 +4,13 @@ class Solution {
         int res = Integer.MAX_VALUE;
         while (low <= high) {
             mid = low + (high - low) / 2;
+            //since the search space is already sorted
+            //then nums[low] will always be the answer
+            if(nums[low] <= nums[high])
+                {
+                    res = Integer.min(res, nums[low]);
+                    break;
+                }
             if (nums[mid] < nums[high]) {
                 res = Integer.min(res, nums[mid]);
                 high = mid - 1;
