@@ -8,7 +8,7 @@ class Solution {
                 res = Integer.min(res, nums[mid]);
                 high = mid - 1;
             } else {
-                res = Integer.min(res, nums[mid]);
+                res = Integer.min(res, nums[low]);
                 low = mid + 1;
             }
         }
