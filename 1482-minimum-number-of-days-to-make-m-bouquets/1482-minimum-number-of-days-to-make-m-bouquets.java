@@ -9,8 +9,8 @@ class Solution {
             high = Integer.max(day, high);
         while( low <= high){
             mid = low + (high - low) / 2;
-            int checkVal = check(bloomDay, m, k, mid);
-            if(checkVal == 1){
+            int totalBoquets = countBoquets(bloomDay, m, k, mid);
+            if(totalBoquets >= m){
                 ans = Integer.min(ans, mid);
                 high = mid - 1;
             }
@@ -21,7 +21,7 @@ class Solution {
         return -1;
     return ans;
     }
-    private int check(int[] bloomDay, int m, int k, int mid){
+    private int countBoquets(int[] bloomDay, int m, int k, int mid){
         int count = 0;
         int totCount = 0;
         for(int i = 0; i < bloomDay.length; i++){
@@ -33,9 +33,7 @@ class Solution {
                 count = 0;
             }
         }
-        totCount += count / k;
-        if(totCount >= m)
-            return 1;            
-        return 0;
+        totCount += count / k;// if the last elements form a boquet
+        return totCount;
     }
 }
