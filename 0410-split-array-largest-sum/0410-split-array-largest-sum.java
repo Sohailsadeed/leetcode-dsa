@@ -6,17 +6,16 @@ class Solution {
             low = Integer.max(low, num);
             high += num;
         }
-        while(low <= high){
+        while(low < high){
             mid = (low + high) >> 1;
             int maxSplits = findMaxSplits(nums, mid);
             if(maxSplits <= k){
-                res = mid;
-                high = mid - 1;
+                high = mid;
             }
             else
                 low = mid + 1;
         }
-        return res;
+        return low;
     }
 
     private int findMaxSplits(int[] nums, int threshold){
