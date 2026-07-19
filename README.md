@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0239-sliding-window-maximum) |
+| [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0540-single-element-in-a-sorted-array) |
 | [0875-koko-eating-bananas](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0875-koko-eating-bananas) |
 | [0930-binary-subarrays-with-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0930-binary-subarrays-with-sum) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0209-minimum-size-subarray-sum) |
+| [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
 | [0930-binary-subarrays-with-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0930-binary-subarrays-with-sum) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2024-maximize-the-confusion-of-an-exam) |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0209-minimum-size-subarray-sum) |
+| [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0540-single-element-in-a-sorted-array) |
 | [0875-koko-eating-bananas](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -99,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Two Pointers
 |  |
@@ -124,4 +128,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0004-median-of-two-sorted-arrays) |
+## Greedy
+|  |
+| ------- |
+| [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
 <!---LeetCode Topics End-->
