@@ -18,7 +18,7 @@ class Solution {
     private int findStores(int[] quantities, int threshold){
         int storeCount = 0;
         for(int i = 0; i < quantities.length; i++){
-            storeCount += Math.ceil((double) quantities[i] / threshold);
+            storeCount += (quantities[i] + threshold - 1) / threshold;
         }
         return storeCount;
     }
