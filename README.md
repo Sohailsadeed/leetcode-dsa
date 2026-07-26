@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1552-magnetic-force-between-two-balls) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
+| [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Prefix Sum
@@ -103,11 +104,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1552-magnetic-force-between-two-balls](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1552-magnetic-force-between-two-balls) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
+| [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 ## Two Pointers
 |  |
 | ------- |
@@ -128,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1552-magnetic-force-between-two-balls](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1552-magnetic-force-between-two-balls) |
+| [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -137,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
+| [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 ## Matrix
 |  |
 | ------- |
