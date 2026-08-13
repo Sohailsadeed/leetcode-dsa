@@ -158,4 +158,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1095-find-in-mountain-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1095-find-in-mountain-array) |
+## Linked List
+|  |
+| ------- |
+| [0328-odd-even-linked-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
