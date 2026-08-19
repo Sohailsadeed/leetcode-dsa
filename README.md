@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1248-count-number-of-nice-subarrays) |
+| [1386-cinema-seat-allocation](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1386-cinema-seat-allocation) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/3471-find-the-largest-almost-missing-integer) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1095-find-in-mountain-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1095-find-in-mountain-array) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1386-cinema-seat-allocation](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1386-cinema-seat-allocation) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1539-kth-missing-positive-number](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1539-kth-missing-positive-number) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
+| [1386-cinema-seat-allocation](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1386-cinema-seat-allocation) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 ## Matrix
@@ -199,4 +202,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0142-linked-list-cycle-ii) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1386-cinema-seat-allocation](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1386-cinema-seat-allocation) |
 <!---LeetCode Topics End-->
