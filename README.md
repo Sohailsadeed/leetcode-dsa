@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0234-palindrome-linked-list) |
 | [0567-permutation-in-string](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0567-permutation-in-string) |
@@ -154,12 +155,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0148-sort-list) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1552-magnetic-force-between-two-balls) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0004-median-of-two-sorted-arrays) |
+| [0148-sort-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0148-sort-list) |
 ## Greedy
 |  |
 | ------- |
@@ -185,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0234-palindrome-linked-list) |
@@ -212,4 +216,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1386-cinema-seat-allocation](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1386-cinema-seat-allocation) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
