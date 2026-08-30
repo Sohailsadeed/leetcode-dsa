@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1552-magnetic-force-between-two-balls](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1552-magnetic-force-between-two-balls) |
 | [1898-maximum-number-of-removable-characters](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1898-maximum-number-of-removable-characters) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
 | [1386-cinema-seat-allocation](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1386-cinema-seat-allocation) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 ## Matrix
 |  |
