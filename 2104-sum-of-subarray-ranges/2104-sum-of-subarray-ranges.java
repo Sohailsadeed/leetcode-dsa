@@ -1,61 +1,72 @@
 class Solution {
     public long subArrayRanges(int[] nums) {
-        return sumMax(nums) - sumMin(nums);
+        return maxSum(nums) - minSum(nums);
     }
 
-    private long sumMin(int[] nums) {
-        int n = nums.length;
-        long sum = 0;
-        Deque<Integer> stack = new ArrayDeque<>();
+     private long minSum(int[] arr){
+        Deque<long[]> st = new ArrayDeque<>();
 
-        for (int i = 0; i <= n; i++) {
-            while (!stack.isEmpty() &&
-                  (i == n || nums[stack.peek()] >= nums[i])) {
+        long currentSum = 0;
+        long answer = 0;
 
-                int mid = stack.pop();
+        for (int i = 0; i < arr.length; i++) {
 
-                int left = stack.isEmpty() ? -1 : stack.peek();
-                int right = i;
+            long range = 1;
 
-                long leftCount = mid - left;
-                long rightCount = right - mid;
+            while (!st.isEmpty() && st.peek()[0] > arr[i]) {
 
-                sum += (long) nums[mid] * leftCount * rightCount;
+                long[] popped = st.pop();
+
+                range += popped[1];
+                currentSum -= popped[2];
             }
 
-            if (i < n) {
-                stack.push(i);
-            }
+            long contribution = (long) arr[i] * range;
+
+            st.push(new long[] {
+                    arr[i],
+                    range,
+                    contribution
+            });
+
+            currentSum += contribution;
+
+            answer = (answer + currentSum);
         }
 
-        return sum;
+        return answer;
     }
+     private long maxSum(int[] arr){
+        Deque<long[]> st = new ArrayDeque<>();
 
-    private long sumMax(int[] nums) {
-        int n = nums.length;
-        long sum = 0;
-        Deque<Integer> stack = new ArrayDeque<>();
+        long currentSum = 0;
+        long answer = 0;
 
-        for (int i = 0; i <= n; i++) {
-            while (!stack.isEmpty() &&
-                  (i == n || nums[stack.peek()] <= nums[i])) {
+        for (int i = 0; i < arr.length; i++) {
 
-                int mid = stack.pop();
+            long range = 1;
 
-                int left = stack.isEmpty() ? -1 : stack.peek();
-                int right = i;
+            while (!st.isEmpty() && st.peek()[0] < arr[i]) {
 
-                long leftCount = mid - left;
-                long rightCount = right - mid;
+                long[] popped = st.pop();
 
-                sum += (long) nums[mid] * leftCount * rightCount;
+                range += popped[1];
+                currentSum -= popped[2];
             }
 
-            if (i < n) {
-                stack.push(i);
-            }
+            long contribution = (long) arr[i] * range;
+
+            st.push(new long[] {
+                    arr[i],
+                    range,
+                    contribution
+            });
+
+            currentSum += contribution;
+
+            answer = (answer + currentSum);
         }
 
-        return sum;
-    }
+        return answer;
+}
 }
