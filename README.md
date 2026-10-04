@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0076-minimum-window-substring) |
+| [0402-remove-k-digits](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0567-permutation-in-string) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0410-split-array-largest-sum) |
 | [1386-cinema-seat-allocation](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/1386-cinema-seat-allocation) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
@@ -236,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0402-remove-k-digits) |
 | [2104-sum-of-subarray-ranges](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2104-sum-of-subarray-ranges) |
 ## Floyd's Cycle Finding Algorithm
 |  |
@@ -270,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0085-maximal-rectangle) |
+| [0402-remove-k-digits](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/0402-remove-k-digits) |
 | [2104-sum-of-subarray-ranges](https://github.com/Sohailsadeed/leetcode-dsa/tree/master/2104-sum-of-subarray-ranges) |
 ## Range Minimum/Maximum Query
 |  |
